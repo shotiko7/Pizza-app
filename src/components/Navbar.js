@@ -1,5 +1,7 @@
 import React from 'react'
-import logo from "../assets/pizalogo.jpg"
+import logo from "../assets/pizzaLogo.png"
+import "../styles/Navbar.css"
+import ReorderIcon from '@mui/icons-material/Reorder';
 import { Link } from "react-router-dom"
 
 function Navbar() {
@@ -13,6 +15,9 @@ function Navbar() {
             <Link to="/menu"> Menu </Link>
             <Link to="/about"> About </Link>
             <Link to="/contact"> Contact </Link>
+            <button>
+               <ReorderIcon/>
+            </button>
         </div>
     </div>
   )

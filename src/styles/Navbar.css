@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.leftsidenav {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+ .leftsidenav img {
+    width: 70px;
+    height: 70px;
+  }
+  
+.rightsidenav {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+.rightsidenav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.rightsidenav button {
+    display: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .navbar .rightsidenav a  {
+      display: none;
+    }
+    .navbar .rightsidenav button {
+        display: inherit;
+        cursor: pointer;
+    }
+}
