@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+}
+.socialMedia svg {
+    color: beige;
+    cursor: pointer;
+}
+.footer p {
+    margin-top: 10px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
